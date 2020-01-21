@@ -36,7 +36,7 @@ public abstract class Setup
 
     @AfterTest
     public void afterTest(){
-        driver.quit();
+        //driver.quit();
     }
 
     public void sleep(int seconds){

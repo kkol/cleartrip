@@ -32,6 +32,16 @@ public class FlightFactory {
     @FindBy(xpath = "//ul[@id='ui-id-2']//a")
     List<WebElement> destinationAirportList;
 
+    @FindBy(id = "Adults")
+    WebElement adults;
+
+    @FindBy(id = "Childrens")
+    WebElement childrens;
+
+    @FindBy(id = "Infants")
+    WebElement infants;
+
+
 
     public FlightFactory(WebDriver driver) {
         this.driver = driver;
