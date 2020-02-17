@@ -9,27 +9,31 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import java.awt.image.ImageProducer;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public abstract class Setup
+public abstract class Setup extends CreateCriver
 {
-    protected WebDriver driver;
-
     public Setup(){
         super();
     }
 
     @BeforeTest
     public void beforeTest(){
-        WebDriverManager.chromedriver().setup();
+        Map<String, Object>  preference = new HashMap<>();
+        preference.put("profile.default_content_setting_values.notifications", 2);
+        super.setDriver("chrome", preference);
+
+
+      /*  WebDriverManager.chromedriver().setup();
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("profile.default_content_setting_values.notifications", 2);
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs", prefs);
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); */
     }
 
 
