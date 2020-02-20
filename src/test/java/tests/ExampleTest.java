@@ -1,13 +1,12 @@
 package tests;
 
-import base.Setup;
+import base.ChromeSetup;
 import elements.calender.DataPicker;
 import elements.flights.Flight;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class ExampleTest extends Setup{
+public class ExampleTest extends ChromeSetup {
     private Flight flight;
     private DataPicker dataPicker;
 
@@ -18,7 +17,6 @@ public class ExampleTest extends Setup{
         getDriver().get("https://www.cleartrip.com/flights");
         flight = new Flight(getDriver());
         dataPicker = new DataPicker(getDriver());
-        getDriver().manage().window().maximize();
     }
 
     @Test
