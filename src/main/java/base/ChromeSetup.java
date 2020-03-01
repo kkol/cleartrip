@@ -1,21 +1,24 @@
 package base;
 
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
-public abstract class ChromeSetup extends CreateDriver
+public abstract class ChromeSetup
 {
+    public CreateDriver driver = CreateDriver.getInstance();
     public ChromeSetup(){
-        super();
+
     }
 
 
     @BeforeTest
     public void beforeTest(){
-        setDriver("chrome", "--start-maximized","--disable-notifications");
+        driver.setDriver("chrome", "--start-maximized","--disable-notifications");
     }
+
 
 
 

@@ -1,6 +1,7 @@
 package tests;
 
 import base.ChromeSetup;
+import base.CreateDriver;
 import elements.calender.DataPicker;
 import elements.flights.Flight;
 import org.testng.annotations.BeforeTest;
@@ -14,9 +15,9 @@ public class ExampleTest extends ChromeSetup {
     @BeforeTest
     public void beforeTest(){
         super.beforeTest();
-        getDriver().get("https://www.cleartrip.com/flights");
-        flight = new Flight(getDriver());
-        dataPicker = new DataPicker(getDriver());
+        driver.getDriver().get("https://www.cleartrip.com/flights");
+        flight = new Flight(driver.getDriver());
+        dataPicker = new DataPicker(driver.getDriver());
     }
 
     @Test

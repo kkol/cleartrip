@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 @Setter @Getter
 @SuppressWarnings("varargs")
 public class CreateDriver {
-    private static CreateDriver instance = null;
+    private static CreateDriver instance =  null;
     private WebDriver driver;
     private String browserHandle = null;
     private ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
@@ -25,6 +25,7 @@ public class CreateDriver {
     private ThreadLocal<String> sessionBrowser = new ThreadLocal<>();
     private ThreadLocal<String> sessionPlatform = new ThreadLocal<>();
     private ThreadLocal<String> sessionVersion = new ThreadLocal<>();
+
 
     public static CreateDriver getInstance() {
     if(instance == null){
