@@ -1,4 +1,4 @@
-package base;
+package com.travels.aut.autSubname.ux.framework.driver;
 
 import io.github.bonigarcia.wdm.InternetExplorerDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;

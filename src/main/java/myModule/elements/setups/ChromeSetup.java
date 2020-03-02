@@ -1,13 +1,18 @@
-package base;
+package myModule.elements.setups;
 
 
-import org.openqa.selenium.WebDriver;
+import com.travels.aut.autSubname.ux.framework.utils.Global_VARS;
+import com.travels.aut.autSubname.ux.framework.driver.CreateDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+/**
+ * @author kkol
+ */
 
-public abstract class ChromeSetup
+public class ChromeSetup
 {
+    public int elementWait = Global_VARS.TIMEOUT_ELEMENT;
     public CreateDriver driver = CreateDriver.getInstance();
     public ChromeSetup(){
 
@@ -16,11 +21,11 @@ public abstract class ChromeSetup
 
     @BeforeTest
     public void beforeTest(){
-        driver.setDriver("chrome", "--start-maximized","--disable-notifications");
+        driver.setDriver("chrome",
+                "--start-maximized",
+                "--disable-notifications"
+                );
     }
-
-
-
 
     @AfterTest
     public void afterTest(){

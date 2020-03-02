@@ -1,4 +1,4 @@
-package elements.popups;
+package myModule.elements.popups;
 
 import lombok.Getter;
 import lombok.Setter;

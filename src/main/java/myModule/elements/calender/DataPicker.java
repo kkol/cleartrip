@@ -1,4 +1,4 @@
-package elements.calender;
+package myModule.elements.calender;
 
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;

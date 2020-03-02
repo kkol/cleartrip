@@ -1,4 +1,4 @@
-package base;
+package com.travels.aut.autSubname.ux.framework.utils;
 
 public class Global_VARS {
     // target app defaluts
@@ -18,6 +18,7 @@ public class Global_VARS {
     public static final int TIMEOUT_MINUTE = 60;
     public static final int TIMEOUT_SECOND = 1;
     public static final int TIMEOUT_ZERO = 0;
+    public static final int TIMEOUT_ELEMENT = 10;
 
 
 

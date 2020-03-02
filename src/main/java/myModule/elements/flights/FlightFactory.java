@@ -1,4 +1,4 @@
-package elements.flights;
+package myModule.elements.flights;
 
 import lombok.Getter;
 import lombok.Setter;

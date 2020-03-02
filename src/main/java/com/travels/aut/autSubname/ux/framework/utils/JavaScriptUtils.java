@@ -1,5 +1,6 @@
-package base;
+package com.travels.aut.autSubname.ux.framework.utils;
 
+import com.travels.aut.autSubname.ux.framework.driver.CreateDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

@@ -1,9 +1,8 @@
 package tests;
 
-import base.ChromeSetup;
-import base.CreateDriver;
-import elements.calender.DataPicker;
-import elements.flights.Flight;
+import myModule.elements.setups.ChromeSetup;
+import myModule.elements.calender.DataPicker;
+import myModule.elements.flights.Flight;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

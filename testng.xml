@@ -3,7 +3,7 @@
 <suite name="My_Test_Suite" preserve-order="true" verbose="2">
     <!-- test listeners -->
     <listeners>
-        <listener class-name="base.TestNG_Listener" />
+        <listener class-name="com.travels.aut.autSubname.ux.framework.listeners.TestNG_Listener" />
     </listeners>
 
     <test name="Reg1">
