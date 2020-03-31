@@ -1,4 +1,4 @@
-package myModule.elements.setups;
+package com.travels.aut.autSubname.ux.framework.setups;
 
 import com.travels.aut.autSubname.ux.framework.driver.CreateDriver;
 import com.travels.aut.autSubname.ux.framework.utils.Global_VARS;
@@ -7,7 +7,10 @@ import com.travels.aut.autSubname.ux.framework.utils.SynchronizationWaits;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public abstract class BrowserBase<M extends WebElement> {
     public  int elementWait = Global_VARS.TIMEOUT_ELEMENT;
@@ -17,6 +20,11 @@ public abstract class BrowserBase<M extends WebElement> {
     public BrowserBase() throws Exception {
         PageFactory.initElements(driver,this);
     }
+
+    @FindBy(css = "span[title = 'Cleartrip ']")
+    @CacheLookup
+    protected M cleartripLogo;
+
 
     public abstract void setElementWait(int elementWait);
     public abstract int getElementWait();
@@ -73,6 +81,19 @@ public abstract class BrowserBase<M extends WebElement> {
         JavaScriptUtils.isPageReady(driver);
         SynchronizationWaits.waitForURL(landingURL, Global_VARS.TIMEOUT_MINUTE);
     }
+
+    /**
+     * selectFrom - method to select element from list
+     * @param element
+     * @param option
+     */
+    public void selectFrom(M element, String option){
+        Select select = new Select(element);
+        select.selectByVisibleText(option);
+
+    }
+
+
 
 
 
