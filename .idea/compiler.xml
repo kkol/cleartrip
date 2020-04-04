@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="phptravels" target="8" />
+      <module name="phptravels" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

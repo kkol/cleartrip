@@ -84,6 +84,7 @@ public class FlightSearch<M extends WebElement> extends BrowserBase<M> {
 
     /**
      * searchFlight - general method to search a flight
+     *
      * @param arrivalAirport
      * @param departureAirport
      * @throws Exception
@@ -106,11 +107,34 @@ public class FlightSearch<M extends WebElement> extends BrowserBase<M> {
     }
 
     /**
-     * verifySearchLogo - checks if logo is displayed
+     * searchFlight - overriden method to negative testing - later need to be discussed if this aproach will be use in future
+     * @param message
+     * @throws Exception
      */
-    public void verifySearchLogo(){
-        Assert.assertTrue(cleartripLogo.isDisplayed());
+    public void searchFlight(String arrivalAirport, String departureAirport, String adult, String children, String infant, String message) throws Exception {
+        this.origin.sendKeys(arrivalAirport);
+        this.destination.sendKeys(departureAirport);
+        this.departOn.click();
+        this.departOn.sendKeys(Keys.ENTER);
+        this.selectFrom(adults, adult);
+        this.selectFrom(childrens, children);
+        this.selectFrom(infants, infant);
+        this.search.click();
+
+        throw new Exception(message);
     }
 
+    public FlightSearch getFlight(String arrivalAirport) throws Exception {
+       origin.sendKeys(arrivalAirport);
+       return this;
+    }
 
-}
+        /**
+         * verifySearchLogo - checks if logo is displayed
+         */
+        public void verifySearchLogo () {
+            Assert.assertTrue(cleartripLogo.isDisplayed());
+        }
+
+
+    }
