@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PHPtravels" />
+        <module name="phptravels" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PHPtravels" target="11" />
+      <module name="phptravels" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

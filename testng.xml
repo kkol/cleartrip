@@ -2,21 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="My_Test_Suite" preserve-order="true" parallel="false" thread-count="1" verbose="2">
 
-    <!-- test listeners -->
-    <listeners>
-        <listener class-name="com.travels.aut.autSubname.ux.framework.listeners.TestNG_Listener" />
-    </listeners>
+
 
     <!-- tests -->
     <test name="Chrome">
-        <!--test parameters-->
-        <parameter name="browser" value="chrome"></parameter>
-        <parameter name="option.maximize" value="--start-maximized"></parameter>
-        <parameter name="option.disable.notification" value="--disable-notifications"></parameter>
 
-        <classes>
-            <class name="tests.CleartripTest"/>
-        </classes>
     </test>
 
 </suite>
