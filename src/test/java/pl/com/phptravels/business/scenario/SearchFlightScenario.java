@@ -15,8 +15,8 @@ public class SearchFlightScenario implements BaseScenario<SearchFlightPage, Resu
     public ResultsPage run(SearchFlightPage searchPage) {
         return searchPage
                 .clearAndSetAirportFrom(flightData.getAirportFrom())
-                .clearAndSetAirportFrom(flightData.getAirportTo())
-              //  .setDepartDate(flightData.getDepartDate())
+                .clearAndSetAirportTo(flightData.getAirportTo())
+                .setDepartDate(flightData.getDepartDate())
                 .setAdultsNumber(flightData.getAdultsNumber())
                 .setChildrenNumber(flightData.getChildrenNumber())
                 .setInfantNumber(flightData.getInfantsNumber())

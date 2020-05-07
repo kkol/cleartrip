@@ -1,0 +1,32 @@
+2020-05-06 19:55:18,848 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-07 12:30:07)
+2020-05-06 19:55:18,855 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-06 19:55:18,879 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-06 19:55:18,880 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:12:56,099 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:12:56,110 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:12:56,141 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:12:56,143 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:13:24,390 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:13:24,406 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:13:24,434 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:13:24,435 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:13:57,915 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:13:57,925 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:13:57,956 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:13:57,957 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:15:41,229 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:15:41,241 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:15:41,276 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:15:41,278 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:16:25,870 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:16:25,878 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:16:25,901 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:16:25,903 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:23:27,305 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:23:27,316 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:23:27,341 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:23:27,343 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:23:53,740 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:23:53,749 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:23:53,775 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:23:53,777 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe

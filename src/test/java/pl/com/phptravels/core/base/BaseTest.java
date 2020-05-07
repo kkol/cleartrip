@@ -7,6 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import pl.com.phptravels.core.driver.CreateDriver;
 
+import java.util.concurrent.TimeUnit;
+
 import static pl.com.phptravels.core.config.Constants.DISABLED_NOTIFICATIONS;
 import static pl.com.phptravels.core.config.Constants.MAXIMIZED;
 import static pl.com.phptravels.core.config.PropertiesReader.BROWSER_TYPE;
@@ -18,10 +20,11 @@ public abstract class BaseTest {
     @BeforeClass(alwaysRun = true)
     protected void testSetup(ITestContext context){
         driver = CreateDriver.getInstance().getDriver(BROWSER_TYPE, MAXIMIZED, DISABLED_NOTIFICATIONS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @AfterClass(alwaysRun = true)
     protected void testTeardown(ITestContext context){
-        driver.quit();
+        //driver.quit();
     }
 }
