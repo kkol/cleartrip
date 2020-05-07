@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PHPtravels.iml" filepath="$PROJECT_DIR$/PHPtravels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phptravels.iml" filepath="$PROJECT_DIR$/phptravels.iml" />
     </modules>
   </component>
 </project>
