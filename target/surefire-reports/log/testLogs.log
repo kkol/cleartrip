@@ -1,32 +1,37 @@
-2020-05-06 19:55:18,848 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-07 12:30:07)
-2020-05-06 19:55:18,855 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-06 19:55:18,879 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-06 19:55:18,880 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:12:56,099 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:12:56,110 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:12:56,141 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:12:56,143 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:13:24,390 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:13:24,406 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:13:24,434 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:13:24,435 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:13:57,915 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:13:57,925 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:13:57,956 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:13:57,957 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:15:41,229 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:15:41,241 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:15:41,276 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:15:41,278 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:16:25,870 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:16:25,878 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:16:25,901 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:16:25,903 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:23:27,305 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:23:27,316 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:23:27,341 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:23:27,343 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
-2020-05-07 20:23:53,740 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
-2020-05-07 20:23:53,749 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
-2020-05-07 20:23:53,775 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
-2020-05-07 20:23:53,777 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:39:04,552 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] CreateDriver.getInstance([])
+2020-05-07 20:39:04,561 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BrowserType.values([])
+2020-05-07 20:39:04,564 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] CreateDriver.getDriver([CHROME, [Ljava.lang.String;@3fce8fd9])
+2020-05-07 20:39:04,565 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BrowserType.values([])
+2020-05-07 20:39:06,269 DEBUG [main] i.g.b.w.Preferences [Preferences.java : 118] Preference found chrome81=81.0.4044.138 (valid until 2020-05-08 13:08:47)
+2020-05-07 20:39:06,277 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 575] Using chromedriver 81.0.4044.138 (since Google Chrome 81 is installed in your machine)
+2020-05-07 20:39:06,302 DEBUG [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 530] Driver chromedriver 81.0.4044.138 found in cache
+2020-05-07 20:39:06,305 INFO [main] i.g.b.w.WebDriverManager [WebDriverManager.java : 1050] Exporting webdriver.chrome.driver as C:\Users\kolasak\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe
+2020-05-07 20:39:09,023 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightTest.verifyIfAllWorks([])
+2020-05-07 20:39:09,027 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BaseTest.getDriver([])
+2020-05-07 20:39:11,494 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BasePage.run([pl.com.phptravels.business.scenario.SearchFlightScenario@57aa341b])
+2020-05-07 20:39:11,495 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightScenario.run([pl.com.phptravels.business.page.SearchFlightPage@26e412ef])
+2020-05-07 20:39:11,495 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getAirportFrom([])
+2020-05-07 20:39:11,496 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.clearAndSetAirportFrom([Rzeszow, PL - Jasionka (RZE)])
+2020-05-07 20:39:11,896 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getAirportTo([])
+2020-05-07 20:39:11,897 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.clearAndSetAirportTo([Warsaw, PL - Warsaw (WAW)])
+2020-05-07 20:39:12,212 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getDepartDate([])
+2020-05-07 20:39:12,213 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.setDepartDate([31/12/2021])
+2020-05-07 20:39:12,405 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getAdultsNumber([])
+2020-05-07 20:39:12,407 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.setAdultsNumber([2])
+2020-05-07 20:39:12,429 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BasePage.selectFrom([[[ChromeDriver: chrome on WINDOWS (e4408a016745ed9fd2f22614f55b4e8c)] -> id: Adults], 2])
+2020-05-07 20:39:12,539 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getChildrenNumber([])
+2020-05-07 20:39:12,539 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.setChildrenNumber([2])
+2020-05-07 20:39:12,559 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BasePage.selectFrom([[[ChromeDriver: chrome on WINDOWS (e4408a016745ed9fd2f22614f55b4e8c)] -> id: Childrens], 2])
+2020-05-07 20:39:12,662 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] FlightData.getInfantsNumber([])
+2020-05-07 20:39:12,662 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.setInfantNumber([1])
+2020-05-07 20:39:12,677 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BasePage.selectFrom([[[ChromeDriver: chrome on WINDOWS (e4408a016745ed9fd2f22614f55b4e8c)] -> id: Infants], 1])
+2020-05-07 20:39:12,771 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightPage.searchFlights([])
+2020-05-07 20:39:12,870 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BasePage.check([class pl.com.phptravels.test.asserations.SearchFlightAssertions])
+2020-05-07 20:39:12,871 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] Assertion.setPage([pl.com.phptravels.business.page.ResultsPage@7cd4a4d7])
+2020-05-07 20:39:12,872 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] SearchFlightAssertions.verifyBar([])
+2020-05-07 20:39:12,872 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] ResultsPage.getResultBar([])
+2020-05-07 20:39:15,485 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] BrowserUtils.waitFor([[[ChromeDriver: chrome on WINDOWS (e4408a016745ed9fd2f22614f55b4e8c)] -> class name: searchSummary], 5])
+2020-05-07 20:39:15,486 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] CreateDriver.getInstance([])
+2020-05-07 20:39:15,486 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] CreateDriver.getDriver([])
+2020-05-07 20:39:15,613 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] ResultsPage.getResultBar([])
+2020-05-07 20:39:15,655 INFO [main] p.c.p.u.LogAspect [LogAspect.java : 35] Assertion.endAssertion([])

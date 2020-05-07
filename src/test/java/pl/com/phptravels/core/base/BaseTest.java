@@ -25,6 +25,6 @@ public abstract class BaseTest {
 
     @AfterClass(alwaysRun = true)
     protected void testTeardown(ITestContext context){
-        //driver.quit();
+        driver.quit();
     }
 }
