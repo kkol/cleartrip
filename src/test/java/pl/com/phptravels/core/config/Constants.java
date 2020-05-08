@@ -9,10 +9,7 @@ public class Constants {
     public static final String MAXIMIZED = "--start-maximized";
     public static final String DISABLED_NOTIFICATIONS = "--disable-notifications";
     // url defaults
-    public static final String BASE_URL = BASE_PROTOCOL + "://" + BASE_HOST + ":" + BASE_PORT + "/";
-    public static final String LOGIN_URL = BASE_URL + "login.html";
-    public static final String HOME_URL = BASE_URL + "home";
-    public static final String KO_URL = BASE_URL + "ko/home";
+    public static final String BASE_URL = BASE_PROTOCOL + "://" + BASE_HOST;
     // output defaults
     public static final String REPORT_LOG_OUTPUT_PATH = "target/surefire-reports/log/";
     public static final String LOG_OUTPUT_PATH = "log/";

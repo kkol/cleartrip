@@ -15,9 +15,8 @@ public class PropertiesReader {
     );
 
     //endpoint defaults
-    public static final String BASE_PROTOCOL = retrievePropertyValue("protocol").orElse("http");
-    public static final String BASE_HOST = retrievePropertyValue("host").orElse("localhost");
-    public static final String BASE_PORT = retrievePropertyValue("port").orElse("8080");
+    public static final String BASE_PROTOCOL = retrievePropertyValue("protocol").orElse("https");
+    public static final String BASE_HOST = retrievePropertyValue("host").orElse("www.cleartrip.com");
 
     private static final String PROPERTIES_FILE_PATH = "src/test/resources/application.properties";
 
